@@ -5,6 +5,8 @@ import Tagline from './components/Tagline';
 import Mascot from './components/Mascot';
 import Description from './components/Description';
 import Join_Waiting_List from './components/Join_Waiting_List';
+import infinityLogo from './assets/infinity-logo.png'
+import mascot from './assets/mascot.png'
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       {/* <CommingSoon_Background className='w-dvw h-dvh'> */}
         <Title content="Ekmāgnatā"/>
         <Tagline content="FOCUS is FREEDOM"/>
-        <Mascot firstSrc={'/infinity-logo.png'} secondSrc={'/mascot.png'} className='h-[400px] w-full'/>
+        <Mascot firstSrc={infinityLogo} secondSrc={mascot} className='h-[400px] w-full'/>
         <Description/>
         <Join_Waiting_List/>
       {/* </CommingSoon_Background> */}
