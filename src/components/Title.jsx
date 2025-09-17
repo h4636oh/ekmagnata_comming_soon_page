@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Title = () => {
-  const texts = ["Ekmāgnatā", "!! Coming Soon !!"];
+  const texts = ["Ekmāgnatā", "!!Coming Soon!!"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -30,7 +30,7 @@ const Title = () => {
   }, [text, isDeleting, index, texts]);
 
   return (
-    <h1 className="text-6xl lg:text-8xl text-[#FBF6EA] font-bold text-center px-4">
+    <h1 className="text-4xl md:text-8xl text-[#FBF6EA] font-bold text-center px-4">
       {text}
       <span className="animate-pulse">|</span>
     </h1>
